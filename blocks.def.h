@@ -4,7 +4,7 @@ static const Block blocks[] = {
 	{"", "fanspeed", 5, 0},
 	{"", "cputemp", 5, 0},
 	{"", "vpnstatus",	10, 0},
-	{"", "date '+ %I:%M %p | %a %b %d '",					5,		0}
+	{"", "date '+%a %b %d | %I:%M %p'",					5,		0}
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
